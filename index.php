@@ -1,5 +1,7 @@
 <?php
 
+require_once __DIR__ '/actor.php';
+
 class Movie {
     // Variabili d'istanza
     public $title;
