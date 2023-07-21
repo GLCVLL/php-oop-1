@@ -7,6 +7,7 @@ class Movie {
     public $title;
     public $genre;
     public $releaseYear;
+    public $actors = [];
 
     // Costruttore della classe
     public function __construct($title, $genre, $releaseYear) {
