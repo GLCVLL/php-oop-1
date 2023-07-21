@@ -40,6 +40,13 @@ $actor4 = new Actor("Emma Stone", 33);
 $movie1 = new Movie("Inception", "Fantascienza", 2010);
 $movie2 = new Movie("Forrest Gump", "Drammatico", 1994);
 
+// Aggiunta degli attori ai film
+$movie1->addActor($actor1);
+$movie1->addActor($actor2);
+
+$movie2->addActor($actor3);
+$movie2->addActor($actor4);
+
 // Stampa delle informazioni relative ai due film
 echo "Film 1: " . $movie1->getInfo() . "<br>";
 echo "Film 2: " . $movie2->getInfo() . "<br>";
