@@ -22,7 +22,7 @@ class Movie {
 
     // Metodo d'istanza
     public function getInfo() {
-        return "Titolo: " . $this->title . ", Genere: " . $this->genre . ", Anno di uscita: " . $this->releaseYear;
+        $info = "Titolo: " . $this->title . ", Genere: " . $this->genre . ", Anno di uscita: " . $this->releaseYear . "<br>";
         foreach ($this->actors as $actor) {
             $info .= "Attore: " . $actor->getInfo() . "<br>";
         }
