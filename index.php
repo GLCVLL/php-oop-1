@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ '/actor.php';
+require_once 'actor.php';
 
 class Movie {
     // Variabili d'istanza
@@ -48,5 +48,5 @@ $movie2->addActor($actor3);
 $movie2->addActor($actor4);
 
 // Stampa delle informazioni relative ai due film
-echo "Film 1: " . $movie1->getInfo() . "<br>";
-echo "Film 2: " . $movie2->getInfo() . "<br>";
+echo "Film 1:<br>" . $movie1->getInfo() . "<br><br>";
+echo "Film 2:<br>" . $movie2->getInfo() . "<br>";
