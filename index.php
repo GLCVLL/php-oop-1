@@ -12,4 +12,9 @@ class Movie {
         $this->genre = $genre;
         $this->releaseYear = $releaseYear;
     }
+
 }
+
+// Creazione di due oggetti Movie
+$movie1 = new Movie("Inception", "Fantascienza", 2010);
+$movie2 = new Movie("The Shawshank Redemption", "Drammatico", 1994);
