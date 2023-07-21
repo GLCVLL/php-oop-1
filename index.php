@@ -30,9 +30,15 @@ class Movie {
     }
 }
 
+// Creazione di oggetti Actor per gli attori
+$actor1 = new Actor("Leonardo DiCaprio", 46);
+$actor2 = new Actor("Morgan Freeman", 85);
+$actor3 = new Actor("Tom Hanks", 65);
+$actor4 = new Actor("Emma Stone", 33);
+
 // Creazione di due oggetti Movie
 $movie1 = new Movie("Inception", "Fantascienza", 2010);
-$movie2 = new Movie("The Shawshank Redemption", "Drammatico", 1994);
+$movie2 = new Movie("Forrest Gump", "Drammatico", 1994);
 
 // Stampa delle informazioni relative ai due film
 echo "Film 1: " . $movie1->getInfo() . "<br>";
