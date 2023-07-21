@@ -16,6 +16,10 @@ class Movie {
         $this->releaseYear = $releaseYear;
     }
 
+    public function addActor($actor) {
+        $this->actors[] = $actor;
+    }
+
     // Metodo d'istanza
     public function getInfo() {
         return "Titolo: " . $this->title . ", Genere: " . $this->genre . ", Anno di uscita: " . $this->releaseYear;
